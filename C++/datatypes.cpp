@@ -11,6 +11,8 @@ int main(){
 	char f = 'a';		//character size - 1 byte (Primitive Datatype)
 	string str =  "Hari";
 	
+	auto g = 100;		//auto keyword will automatically initialize variable to the datatype of its value.
+
 	cout << "Integer : " << a << '\n';
 	cout << "Short : " << b << '\n';
 	cout << "Double : " << c << '\n';
@@ -18,6 +20,7 @@ int main(){
 	cout << "Boolean : " << e << '\n';
 	cout << "Character : " << f << '\n';
 	cout << "String : " << str << '\n';
+
 
 	return 0;
 }
