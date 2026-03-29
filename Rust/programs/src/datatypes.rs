@@ -1,5 +1,5 @@
 //datatypes in rust:
-fn main() {
+pub fn main() {
     //scalar types
     let x: i32 = 5; //integer
     let y: f64 = 3.14; //floating-point
